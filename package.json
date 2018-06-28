@@ -1,6 +1,6 @@
 {
   "name": "tchain",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "./lib/chain.js",
   "scripts": {
