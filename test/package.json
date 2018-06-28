@@ -11,5 +11,8 @@
   "dependencies": {
     "drag-compoment": "^1.0.24",
     "tchain": "0.0.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0"
   }
 }

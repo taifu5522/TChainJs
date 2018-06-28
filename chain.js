@@ -41,6 +41,7 @@ const get = (data, par, resualt) => {
  */
 function bindHandler(name, fn) {
   this[`${name}Handler`] = (...args) => {
+    args[args.length] = this.resualt;
     const resualt = fn.apply(this, args);
     if (resualt !== undefined && resualt !== null) {
       this.resualt = resualt;
